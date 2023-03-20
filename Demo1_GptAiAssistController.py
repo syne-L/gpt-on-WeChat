@@ -27,9 +27,9 @@ AI_ASSISTANT.GetHistoryDialog()    # is used to access the history dialogs.
 
 def DemoIntroduction():
     # 测试 AI_ASSISTANT
-    nameAI = "AiRong"  # AI's name
+    nameAI = "AI's name"  # AI's name
     nameHu = "User_1"  # user's name
-    nameDv = "Si Jyu"  # developer's name
+    nameDv = "SyneL"  # developer's name
 
     # An Instantiation of the class AI_ASSISTANT by an instance AiAssistant_SiRong.
     AiAssistant_SiRong = AI_ASSISTANT(nameAI, nameHu, nameDv)
