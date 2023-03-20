@@ -7,7 +7,7 @@ send and read messages. (see the details in the program and the comments)
 
 if __name__ == '__main__':
 
-    partner1 = '林熠程'
+    partner1 = 'Lin'
     partner2 = '文件传输助手'
     HistoryMsgs = []            # history msgs container
     msgHead = '[PROGRAM TEST]'  # head of msg
