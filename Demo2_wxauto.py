@@ -22,7 +22,7 @@ def DemoIntroction():
     wx.GetSessionList()
 
     # to indicate who you want to chat with.
-    wx.ChatWith('林熠程', RollTimes=None)
+    wx.ChatWith('Lin', RollTimes=None)
 
     # get the Messages in the present window, and obtain a 2D list as [[name0, content0], [name1, content1], ...]
     msgs = wx.GetAllMessage
@@ -50,7 +50,7 @@ if __name__ == '__main__':
     # example1: send the message 'testMsg' to '林熠程'
     wx = WeChat()
     wx.GetSessionList()
-    wx.Search(keyword='林熠程')
+    wx.Search(keyword='Lin')
     WxUtils.SetClipboard(testMsg)
     wx.SendClipboard()
     pass

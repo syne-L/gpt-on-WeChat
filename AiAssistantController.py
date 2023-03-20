@@ -2,7 +2,7 @@ import os
 import openai
 
 # openAI key 用于授权
-openai.api_key = "your own api key"
+openai.api_key = "your own key"
 
 
 # 类：AI assistant
